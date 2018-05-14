@@ -1,0 +1,9 @@
+/* Esta querie estara actiba mientras el tamaño
+de la pantalla sea mas pequeño que el establecido */
+@media (max-width: 64em) {
+   .locationList {
+      max-height: 30vh;
+      overflow: auto;
+      margin-bottom: 20px;
+   }
+}
