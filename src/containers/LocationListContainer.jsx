@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { bindActionCreators } from 'redux';
 import PropTypes from 'prop-types';
+import { bindActionCreators } from 'redux';
+import * as actions from './../actions';
 // Esta libreria sirve para conectar React y Redux
 import { connect } from 'react-redux';
 // Importamos la clase que nos permitira crear el store
 // import { setSelectedCity, setWeather } from './../actions';
-import * as actions from './../actions';
 import LocationList from './../components/LocationList';
 import { getWeatherCities, getCity } from '../reducers';
 

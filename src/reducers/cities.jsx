@@ -3,7 +3,6 @@ import { createSelector } from 'reselect';
 import toPairs from 'lodash.topairs';
 
 export const cities = (state = {}, action) => {
-   debugger;
    switch (action.type) {
       case SET_FORECAST_DATA: {
          // Pone de id el name de la city y como valor pone el forecastData que son los valores de la llamada a la API
